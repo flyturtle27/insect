@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">上传头像</string>
+
+    <!--图片选择器-->
+    <string name="mis_folder_all">所有图片</string>
+    <string name="mis_preview">Preview</string>
+    <string name="mis_msg_no_camera">No system camera found</string>
+    <string name="mis_msg_amount_limit">Select images amount is limit</string>
+    <string name="mis_action_done">确定</string>
+    <string name="mis_action_button_string">%1$s(%2$d/%3$d)</string>
+    <string name="mis_photo_unit">Shot</string>
+    <string name="mis_tip_take_photo">Take photo</string>
+    <string name="mis_error_image_not_exist">Image error</string>
+    <string name="mis_error_no_permission">Has no permission</string>
+    <string name="mis_permission_dialog_title">Permission Deny</string>
+    <string name="mis_permission_dialog_ok">OK</string>
+    <string name="mis_permission_dialog_cancel">CANCEL</string>
+    <string name="mis_permission_rationale">Storage read permission is needed to pick files.</string>
+    <string name="mis_permission_rationale_write_storage">Storage write permission is needed to save the image.</string>
+
+
+    <string name="str_proc">处理图像</string>
+    <string name="select_images">选择图片</string>
+    <string name="gif_make">GIF制作</string>
+
+    <!--image-selector-->
+    <string name="folder_all">所有图片</string>
+    <string name="preview">Preview</string>
+    <string name="msg_no_camera">No system camera found</string>
+    <string name="msg_amount_limit">Select images amount is limit</string>
+    <string name="action_done">Done</string>
+    <string name="photo_unit">Shot</string>
+    <string name="tip_take_photo">Take photo</string>
+    <string name="setting">设置</string>
+
+    <string name="login">登录</string>
+    <string name="one_key_register">一键注册</string>
+    <string name="right_now_register">立即注册</string>
+    <string name="forget_password">忘记密码？</string>
+    <string name="password">密码</string>
+    <string name="account_login">账号登录</string>
+    <string name="find_password">找回密码</string>
+    <string name="get_sms">获取验证码</string>
+    <string name="input_sms">请输入验证码</string>
+    <string name="register">注册</string>
+    <string name="input_password">请输入密码</string>
+    <string name="input_phone_number">请输入手机号码</string>
+    <string name="input_account_phone_number">请输入账号/手机号码</string>
+    <string name="wrong_phone_number">手机号码有误</string>
+    <string name="in_conformable_password">密码长度为6-20位，不含非法字符</string>
+    <string name="input_account">请输入账号</string>
+    <string name="one_key_tips">系统已经自动分配了账号，为了方便记忆，可自行设置。</string>
+    <string name="reset_password">重置密码</string>
+    <string name="input_new_password">输入新密码</string>
+    <string name="reset">重置</string>
+    <string name="input_right_account">请输入合法的账号</string>
+    <string name="login_success">登录成功</string>
+    <string name="reset_success">重置成功</string>
+    <string name="send_success">验证码已发送到</string>
+    <string name="exit">注销</string>
+    <string name="login_exit">登录成功，点击注销</string>
+</resources>
