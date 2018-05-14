@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">上传头像</string>
+    <string name="app_name">昆虫识别</string>
 
     <!--图片选择器-->
     <string name="mis_folder_all">所有图片</string>
