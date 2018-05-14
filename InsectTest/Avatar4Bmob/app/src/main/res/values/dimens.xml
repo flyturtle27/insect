@@ -36,7 +36,8 @@
     <dimen name="edt_btn_high">42dp</dimen>
     <dimen name="title_text_size">22sp</dimen>
     <dimen name="btn_text_size">15sp</dimen>
-    <dimen name="dialog_margin">7dp</dimen>
+    <dimen name="dialog_margin">15dp</dimen>
+    <dimen name="dialog_marginlogin">20dp</dimen>
     <dimen name="image_close_size">25dp</dimen>
     <dimen name="image_back_size">25dp</dimen>
     <dimen name="sms_btn_with">120dp</dimen>
