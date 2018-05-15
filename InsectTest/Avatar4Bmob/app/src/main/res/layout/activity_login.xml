@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     android:background="#ffffff">
 
     <android.support.v7.widget.Toolbar
@@ -15,57 +16,105 @@
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     android:orientation="vertical"
     >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hudie2"
+        android:scaleType="fitXY" />
     <TextView
         android:id="@+id/tv_tips"
         style="@style/Widget.TextView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="220dp"
+        android:layout_height="match_parent"
         android:layout_below="@id/tool_bar"
         android:layout_centerHorizontal="true"
         android:gravity="center"
+       
         android:text="@string/one_key_tips"
-        android:textColor="@android:color/white"
+        android:textColor="@android:color/black"
         android:textSize="@dimen/tips_text_size"/>
-
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hudie3"
+       
+        android:scaleType="fitXY" />
+</LinearLayout>
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:background="@drawable/bg1">
+    android:background="@drawable/button2">
 
-
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="帐号"
+        android:layout_marginLeft="@dimen/dialog_margin"
+        android:layout_marginTop="@dimen/dialog_margin"
+        android:textStyle="bold"
+        android:textSize="30dp"/>
     <EditText
         android:id="@+id/edt_account"
         style="@style/Widget.ClearEditText.Phone"
         android:layout_width="match_parent"
         android:layout_height="@dimen/edt_btn_high"
         android:layout_below="@id/tv_tips"
+        android:background="@drawable/bg1"
         android:layout_marginLeft="@dimen/dialog_margin"
-        android:layout_marginRight="@dimen/dialog_margin"
+        android:layout_marginRight="@dimen/edit_marginright"
         android:layout_marginTop="@dimen/dialog_margin"
         android:hint="@string/input_account"
         android:textColorHint="@color/color_hint"/>
 
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="密码"
+        android:layout_marginLeft="@dimen/dialog_margin"
+        android:layout_marginTop="@dimen/dialog_margin"
+        android:textStyle="bold"
+        android:textSize="30dp"/>
 
     <EditText
         android:id="@+id/edt_password"
         style="@style/Widget.EditText.Password"
         android:layout_width="match_parent"
         android:layout_height="@dimen/edt_btn_high"
+        android:background="@drawable/bg1"
         android:layout_below="@id/edt_account"
         android:layout_marginLeft="@dimen/dialog_margin"
-        android:layout_marginRight="@dimen/dialog_margin"
+        android:layout_marginRight="@dimen/edit_marginright"
         android:layout_marginTop="@dimen/dialog_margin"
         android:hint="@string/input_password"
         android:inputType="textPassword"
         android:textColorHint="@color/color_hint"/>
 </LinearLayout>
+</LinearLayout>
+
     <Button
         android:id="@+id/btn_login"
         style="@style/Widget.Button.Base"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="@dimen/edt_btn_high"
         android:layout_below="@id/edt_password"
         android:layout_marginBottom="@dimen/dialog_margin"
@@ -73,13 +122,14 @@
         android:layout_marginRight="@dimen/dialog_margin"
         android:layout_marginTop="@dimen/dialog_marginlogin"
         android:text="@string/login"
+
         android:background="@drawable/button"
         android:textColor="@color/color_white"/>
 
     <Button
         android:id="@+id/btn_to_sign_up"
         style="@style/Widget.Button.Base"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="@dimen/edt_btn_high"
         android:layout_below="@id/btn_login"
         android:layout_marginBottom="@dimen/dialog_margin"
@@ -89,6 +139,7 @@
         android:text="去注册"
         android:background="@drawable/button"
         android:textColor="@color/color_white"/>
+
     <ImageView
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
