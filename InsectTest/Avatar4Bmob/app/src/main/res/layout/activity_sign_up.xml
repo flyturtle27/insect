@@ -12,20 +12,43 @@
 
     </android.support.v7.widget.Toolbar>
 
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/gotoback"/>
     <TextView
-        android:id="@+id/tv_tips"
-        style="@style/Widget.TextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/tool_bar"
-        android:layout_centerHorizontal="true"
+        android:text="帐号注册"
+        android:textStyle="bold"
         android:gravity="center"
-        android:text="@string/one_key_tips"
-        android:textColor="@android:color/white"
-        android:textSize="@dimen/tips_text_size"/>
-
-
+        android:textSize="50dp"/>
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/dialog_margin"
+            android:text="账号"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
     <EditText
         android:id="@+id/edt_account"
         style="@style/Widget.ClearEditText.Phone"
@@ -38,7 +61,18 @@
         android:hint="@string/input_account"
         android:textColorHint="@color/color_hint"/>
 
-
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/dialog_margin"
+            android:text="密码"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
     <EditText
         android:id="@+id/edt_password"
         style="@style/Widget.EditText.Password"
@@ -51,7 +85,8 @@
         android:hint="@string/input_password"
         android:inputType="textPassword"
         android:textColorHint="@color/color_hint"/>
-
+    </LinearLayout>
+</LinearLayout>
     <Button
         android:id="@+id/btn_register"
         style="@style/Widget.Button.Base"
@@ -65,5 +100,5 @@
         android:text="@string/register"
         android:textColor="@color/color_white"/>
 
-
+</LinearLayout>
 </RelativeLayout>
