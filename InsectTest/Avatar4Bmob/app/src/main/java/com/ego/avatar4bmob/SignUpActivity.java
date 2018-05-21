@@ -19,9 +19,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-/**
- * Created on 17/9/3 08:54
- */
+
 
 public class SignUpActivity extends BaseActivity implements SignUpView {
     @BindView(R.id.tool_bar)
