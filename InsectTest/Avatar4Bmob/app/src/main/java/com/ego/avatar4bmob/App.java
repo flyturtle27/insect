@@ -10,6 +10,6 @@ public class App extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        Bmob.initialize(this,"Ìæ»»³ÉÄãµÄappID");
+        Bmob.initialize(this,"33273f8a53287ea13fe31d8f2d5f5b57");
     }
 }
