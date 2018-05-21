@@ -9,11 +9,6 @@ import com.ego.avatar4bmob.mvp.bean.User;
 
 import cn.bmob.v3.BmobUser;
 
-/**启动界面
- * @author :smile
- * @project:SplashActivity
- * @date :2016-01-15-18:23
- */
 public class SplashActivity extends BaseActivity {
 
     @Override
