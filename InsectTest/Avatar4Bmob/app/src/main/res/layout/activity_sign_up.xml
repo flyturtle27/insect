@@ -4,13 +4,7 @@
                 android:layout_height="match_parent"
                 android:background="#ffffff">
 
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/tool_bar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
 
-
-    </android.support.v7.widget.Toolbar>
 
 <LinearLayout
     android:layout_width="match_parent"
@@ -25,14 +19,25 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:background="@drawable/gotoback"/>
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    </android.support.v7.widget.Toolbar>
+</LinearLayout>
     <TextView
+        android:id="@+id/tv_tips"
+        style="@style/Widget.TextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="帐号注册"
-        android:textStyle="bold"
+        android:layout_below="@id/tool_bar"
+        android:layout_centerHorizontal="true"
         android:gravity="center"
-        android:textSize="50dp"/>
-</LinearLayout>
+        android:text="@string/one_key_tips"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/tips_text_size"/>
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
