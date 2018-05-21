@@ -8,9 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import com.ego.avatar4bmob.dialog.LoadingDialog;
 
 
-/**
- * Created on 17/7/5 19:30
- */
+
 
 public class BaseActivity extends AppCompatActivity {
 
