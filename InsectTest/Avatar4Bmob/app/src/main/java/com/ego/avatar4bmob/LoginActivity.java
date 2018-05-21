@@ -20,9 +20,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-/**
- * Created on 17/9/3 08:52
- */
+
 
 public class LoginActivity extends BaseActivity implements LoginView {
     @BindView(R.id.tool_bar)
