@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget.Button.Base" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:background">@drawable/shape_btn_text_bg</item>
+        <item name="android:textSize">@dimen/btn_text_size</item>
+    </style>
+
+    <style name="Widget.TextView">
+        <item name="android:textColor">@color/color_text</item>
+    </style>
+
+
+    <style name="Widget.EditText.Base" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/shape_edit_text_bg</item>
+        <item name="android:radius">@dimen/dialog_radius</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:paddingLeft">@dimen/dialog_margin</item>
+        <item name="android:textColorHint">@color/color_hint</item>
+    </style>
+
+
+    <style name="Widget"></style>
+
+
+    <style name="Widget.ClearEditText.Phone" parent="Widget.EditText.Base">
+        <item name="android:maxLines">1</item>
+        <item name="android:maxLength">11</item>
+    </style>
+
+    <style name="Widget.EditText.Password" parent="Widget.EditText.Base">
+        <item name="android:maxLines">1</item>
+        <item name="android:maxLength">16</item>
+        <item name="android:inputType">textPassword</item>
+    </style>
+
+    <style name="Widget.EditText.SmsCode" parent="Widget.EditText.Base">
+        <item name="android:maxLines">1</item>
+        <item name="android:inputType">number</item>
+        <item name="android:maxLength">6</item>
+    </style>
+
+
+</resources>

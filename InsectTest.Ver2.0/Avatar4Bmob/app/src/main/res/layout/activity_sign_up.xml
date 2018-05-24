@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <TextView
+        android:id="@+id/tv_tips"
+        style="@style/Widget.TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tool_bar"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/one_key_tips"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/tips_text_size"/>
+
+
+    <EditText
+        android:id="@+id/edt_account"
+        style="@style/Widget.ClearEditText.Phone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edt_btn_high"
+        android:layout_below="@id/tv_tips"
+        android:layout_marginLeft="@dimen/dialog_margin"
+        android:layout_marginRight="@dimen/dialog_margin"
+        android:layout_marginTop="@dimen/dialog_margin"
+        android:hint="@string/input_account"
+        android:textColorHint="@color/color_hint"/>
+
+
+    <EditText
+        android:id="@+id/edt_password"
+        style="@style/Widget.EditText.Password"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edt_btn_high"
+        android:layout_below="@id/edt_account"
+        android:layout_marginLeft="@dimen/dialog_margin"
+        android:layout_marginRight="@dimen/dialog_margin"
+        android:layout_marginTop="@dimen/dialog_margin"
+        android:hint="@string/input_password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/color_hint"/>
+
+    <Button
+        android:id="@+id/btn_register"
+        style="@style/Widget.Button.Base"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edt_btn_high"
+        android:layout_below="@id/edt_password"
+        android:layout_marginBottom="@dimen/dialog_margin"
+        android:layout_marginLeft="@dimen/dialog_margin"
+        android:layout_marginRight="@dimen/dialog_margin"
+        android:layout_marginTop="@dimen/dialog_margin"
+        android:text="@string/register"
+        android:textColor="@color/color_white"/>
+
+
+</RelativeLayout>
