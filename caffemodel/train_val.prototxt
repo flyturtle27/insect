@@ -10,7 +10,7 @@ layer {
   transform_param {
     mirror: true
     crop_size: 227
-    mean_file: "/home/asus/study/rjgc/mean.binaryproto"
+    mean_file: "/home/asus/study/insect/mean.binaryproto"
   }
 # mean pixel / channel-wise mean instead of mean image
 #  transform_param {
@@ -21,8 +21,8 @@ layer {
 #    mirror: true
 #  }
   data_param {
-    source: "/home/asus/study/rjgc/t_train_lmdb"
-    batch_size: 32
+    source: "/home/asus/study/insect/t_train_lmdb"
+    batch_size: 64
     backend: LMDB
   }
 }
@@ -37,7 +37,7 @@ layer {
   transform_param {
     mirror: false
     crop_size: 227
-    mean_file: "/home/asus/study/rjgc/mean.binaryproto"
+    mean_file: "/home/asus/study/insect/mean.binaryproto"
   }
 # mean pixel / channel-wise mean instead of mean image
 #  transform_param {
@@ -48,7 +48,7 @@ layer {
 #    mirror: false
 #  }
   data_param {
-    source: "/home/asus/study/rjgc/t_test_lmdb"
+    source: "/home/asus/study/insect/t_test_lmdb"
     batch_size: 50
     backend: LMDB
   }
@@ -370,7 +370,7 @@ layer {
     decay_mult: 0
   }
   inner_product_param {
-    num_output: 5
+    num_output: 19
     weight_filler {
       type: "gaussian"
       std: 0.01
